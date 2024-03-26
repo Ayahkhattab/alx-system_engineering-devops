@@ -1,3 +1,5 @@
-#!/user/bin/env bash
-#start apashe2 inside docker
-service apache2 start
+#!/usr/bin/env bash
+# Start Apache2 inside Docker
+
+# Assuming your Docker container running Apache2 is named "my_apache_container"
+docker exec my_apache_container service apache2 start
